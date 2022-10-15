@@ -4,6 +4,12 @@
     <router-link to="/about">About</router-link>
   </nav>
   <router-view />
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Title</h5>
+      <p class="card-text">Content</p>
+    </div>
+  </div>
 </template>
 
 <style lang="scss">
